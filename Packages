@@ -1,0 +1,769 @@
+Package: aprsd
+Version: 2.2.5-2
+Section: hamradio
+Priority: optional
+Architecture: arm
+Depends: libax25
+Installed-Size: 752
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: Internet Gateway for the Automatic Position Reporting System
+ aprsd is an internet to RF gateway (igate) for the APRS
+ Automatic Position Reporting System. It allows hams on the Internet
+ to send text messages to hams on RF, especially when linked to the
+ worldwide APRServe network (www.aprs.net).
+ .
+ Disabled automatic start at bootup.
+Filename: aprsd_2.2.5-2_arm.ipk
+Size: 262026
+MD5Sum: 98aa0f01e3130175c5261ac1db525245
+
+Package: ax25-apps
+Version: 0.0.6-0
+Section: hamradio
+Priority: optional
+Architecture: arm
+Depends: ax25-modules, libax25, libncurses5
+Installed-Size: 80
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: This package provides specific user applications for hamradio that use AX.25 Net/ROM or ROSE network protocols:
+ * call: a general purpose AX.25, NET/ROM and Rose connection program.
+ * listen: a network monitor of all AX.25 traffic heard by the system.
+Filename: ax25-apps_0.0.6-0_arm.ipk
+Size: 34492
+MD5Sum: 6f839c346c9e321a0a0a599a5ee30953
+
+Package: ax25-modules
+Section: kernel
+Priority: optional
+Version: 2.4.18-rmk7-pxa3-embedix
+Architecture: arm
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Depends:
+Installed-Size: 344
+Description: ax25 Amateur Packet Radio modules for kernel 2.4.18-rmk7-pxa3-embedix
+Filename: ax25-modules_2.4.18-rmk7-pxa3-embedix_arm.ipk
+Size: 112996
+MD5Sum: 9f16f6e31bead9e1392ca82f0580a0cd
+
+Package: ax25-tools
+Version: 0.0.10rc2-0
+Architecture: arm
+Depends: ax25-modules, libax25
+Priority: optional
+Section: Network
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: disabled
+Installed-Size: 350402
+Description: AX25 tools
+ .
+ ax25-tools is a collection of tools that are used to configure an ax.25 enabled
+ computer. They will configure interfaces and assign callsigns to ports as well
+ as Net/ROM and ROSE configuration.
+Filename: ax25-tools_0.0.10rc2-0_arm.ipk
+Size: 135469
+MD5Sum: 996767a2450032ea7d77057e3745ce82
+
+Package: bluez-libs
+Priority: optional
+Section: comm
+Version: 2.21
+Architecture: arm
+Maintainer: Stephen Crane - steve.crane@rococosoft.com
+Depends:
+Description: User-space libraries for BlueZ
+Filename: bluez-libs-2.21_arm.ipk
+Size: 32503
+MD5Sum: 73bacd597a225322e1c3eceba6389e2d
+
+Package: cadaver
+Version: 0.23.3-1
+Architecture: arm
+Depends: zlib, expat
+Priority: optional
+Section: 
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 889069
+Description: cadaver is a command-line WebDAV client for Unix.
+Filename: cadaver_0.23.3-1_arm.ipk
+Size: 355439
+MD5Sum: 9a8565963e873ef8e7307489597126a8
+
+Package: corsair
+Version: 0.2.6-0
+Architecture: arm
+Depends: 
+Priority: optional
+Section: Network
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 157888
+Description: Corsair RSS/Podcast Aggregator
+ .
+ Edited icon names to avoid name clashes with
+ pre-installed Qtopia icons and added hi-res
+ icons.
+Filename: corsair_0.2.6-0_arm.ipk
+Size: 71732
+MD5Sum: 6885e21ef3d3909d83d8cbf57c637beb
+
+Package: ImageMagick
+Version: 5.5.7-0
+Architecture: arm
+Depends: libjpeg, libpng12, libxml2, libfreetype
+Priority: optional
+Section: libs
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: disabled
+Installed-Size: 2841860
+Description: ImageMagick
+ .
+ ImageMagick(TM) is an image display and manipulation tool for the X
+ Window System. ImageMagick can read and write JPEG, TIFF, PNM, GIF,
+ and Photo CD image formats. It can resize, rotate, sharpen, color
+ reduce, or add special effects to an image, and when finished you can
+ either save the completed work in the original format or a different
+ one. ImageMagick also includes command line programs for creating
+ animated or transparent .gifs, creating composite images, creating
+ thumbnail images, and more.
+Filename: ImageMagick_5.5.7-0_arm.ipk
+Size: 919469
+MD5Sum: 3ebdd3046362ca3b18ed8f7a99b1a1fd
+
+Package: instantmessenger-j2me-pp
+Version: 1.3-0
+Architecture: noarch
+Depends: personal-profile-for-zaurus
+Priority: optional
+Section: extras
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 145128
+Description: Instant Messenger case study for Model-Driven Development.
+ Supports the Jabber protocol for now.
+Filename: instantmessenger-j2me-pp_1.3-0_noarch.ipk
+Size: 132276
+MD5Sum: a4c92b4dbc5b856a99eba4b7c9e5decf
+
+Package: instantmessenger-jeode
+Version: 1.3-0
+Architecture: noarch
+Depends: jeode
+Priority: optional
+Section: extras
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 183549
+Description: Instant Messenger case study for Model-Driven Development.
+ Supports the Jabber protocol for now.
+Filename: instantmessenger-jeode_1.3-0_noarch.ipk
+Size: 106740
+MD5Sum: c35cab423595f86a0fcf9a74cd8e9064
+
+Package: kopi
+Version: 1.5-0
+Depends: 
+Priority: optional
+Section:  development
+Architecture: noarch
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: Kopi java compiler, written in java. Invoke with 'kjc'.
+Installed-Size: 1483057
+Filename: kopi_1.5-0_noarch.ipk
+Size: 1331694
+MD5Sum: d16477a37f18fbf255a84383e05bc034
+
+Package: lesstif
+Version: 0.93.94-0
+Architecture: arm
+Depends: xlibs, libfreetype, zlib
+Priority: optional
+Section: libs
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: disabled
+Installed-Size: 1704220
+Description: LessTif
+ .
+ LessTif is a free replacement for OSF/Motif(R), which provides a full
+ set of widgets for application development (menus, text entry areas,
+ scrolling windows, etc.). LessTif is source compatible with
+ OSF/Motif(R).
+Filename: lesstif_0.93.94-0_arm.ipk
+Size: 654468
+MD5Sum: 832b74b3ec7012d3c30f36b664b84dd1
+
+Package: libaudiofile
+Version: 0.2.6-1
+Section: libs
+Priority: optional
+Architecture: arm
+Depends: 
+Installed-Size: 156
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: Open-source version of SGI's audiofile library
+ The audiofile library allows the processing of audio data to and from audio
+ files of many common formats (currently AIFF, AIFF-C, WAVE, NeXT/Sun, BICS,
+ and raw data).
+ .
+ This package contains the library needed to run executables using
+ libaudiofile.
+Filename: libaudiofile_0.2.6-1_arm.ipk
+Size: 56626
+MD5Sum: 30a12853e429654391d7c5524fbb8461
+
+Package: libax25
+Version: 0.0.11-2
+Section: libs
+Priority: optional
+Architecture: arm
+Depends: ax25-modules
+Installed-Size: 84
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: This library is for ham radio applications that use the ax25 protocol. Included are routines to do ax25 address parsing, common ax25 application config file parsing, etc.
+Filename: libax25_0.0.11-2_arm.ipk
+Size: 18309
+MD5Sum: 5856e8c5584264c149199f2f279facf7
+
+Package: libfreetype
+Version: 2.1.9-0
+Section: libraries
+Priority: optional
+Architecture: arm
+Depends: zlib
+Installed-Size: 444k
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: A free and portable TrueType font rendering engine.
+ FreeType 2 is a software font engine that is designed to be small,
+ efficient, highly customizable and portable while capable of
+ producing high-quality output (glyph images). It can be used in
+ graphics libraries, display servers, font conversion tools, text
+ image generation tools, and many other products as well.
+Filename: libfreetype_2.1.9-0_arm.ipk
+Size: 187224
+MD5Sum: ea51a2f29d1769ac98c01a49ed577b73
+
+Package: libjpeg
+Version: 6b-0
+Section: libraries
+Priority: optional
+Architecture: arm
+Depends: 
+Installed-Size: 140
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: This distribution contains the sixth public release of the Independent JPEG
+ Group's free JPEG software.  You are welcome to redistribute this software and
+ to use it for any purpose, subject to the conditions under LEGAL ISSUES, below.
+ .
+ Serious users of this software (particularly those incorporating it into
+ larger programs) should contact IJG at jpeg-info@uunet.uu.net to be added to
+ our electronic mailing list.  Mailing list members are notified of updates
+ and have a chance to participate in technical discussions, etc.
+ .
+ This software is the work of Tom Lane, Philip Gladstone, Jim Boucher,
+ Lee Crocker, Julian Minguillon, Luis Ortiz, George Phillips, Davide Rossi,
+ Guido Vollbeding, Ge' Weijers, and other members of the Independent JPEG
+ Group.
+ .
+ IJG is not affiliated with the official ISO JPEG standards committee.
+Filename: libjpeg_6b-0_arm.ipk
+Size: 59103
+MD5Sum: edaafd855c6c78267f65a848ed8f589d
+
+Package: libmad
+Priority: optional
+Section: Games
+Version: 0.15.1b-1
+Architecture: arm
+Installed-Size: 108KB
+Maintainer: Tovarish <nkundu@win.tue.nl>
+Packager: Bryan DeLuca <bryan@bryandeluca.com>
+Depends: 
+Cardinst: enabled
+License: GPL
+Description: A sound library
+Filename: libmad_0.15.1b-1_arm.ipk
+Size: 63367
+MD5Sum: 5351fa324e50c78756e48e73e93b7bb4
+
+Package: libncurses5
+Version: 5.0-0
+Section: base
+Priority: optional
+Architecture: arm
+Depends: 
+Installed-Size: 271913
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: Shared libraries for terminal handling
+ This package contains the shared libraries necessary to run programs
+ compiled with ncurses.
+Filename: libncurses5_5.0-0_arm.ipk
+Size: 99792
+MD5Sum: 625b0d5c17115cb897a3495801ff11a8
+
+Package: libogg
+Priority: optional
+Section: Libraries
+Version: 1.1.2-1
+Architecture: arm
+Maintainer: Tovarish <nkundu@win.tue.nl>
+Depends: 
+License: GPL
+Installed-Size: 32KB
+Cardinst: enabled
+Description: The OGG container library
+Filename: libogg_1.1.2-1_arm.ipk
+Size: 9335
+MD5Sum: 62b56791ab5fcea49b4308e843bfe13f
+
+Package: libpng12
+Version: 1.2.8-0
+Architecture: arm
+Priority: optional
+Section: Libraries
+Installed-Size: 212
+Maintainer: Dennis Wagelaar <dennis.wagleaar@vub.ac.be>
+Description: libpng is the official PNG reference library.
+ It supports almost all PNG features, is extensible, and has been extensively tested for over nine years.
+ .
+ Version 1.2.8 fixes several bugs, amongst which several security vulnerabilities that were present in
+ version 1.2.5.
+Filename: libpng12_1.2.8-0_arm.ipk
+Size: 80861
+MD5Sum: 8e28421451089531919927588ad1eed7
+
+Package: libsdl
+Priority: optional
+Section: libs
+Version: 1.2.5-slzaurus20041025-j
+Architecture: arm
+Maintainer: piro <piro400@occn.zaq.ne.jp>
+Depends: qpe-base
+License: LGPL-2
+Description: SDL Library
+ The Qtopia version of SDL, the highly portable multimedia library.
+ Require special kernel for using hardware rotation.
+ 
+Filename: libsdl_1.2.5-slzaurus20041025-j_arm.ipk
+Size: 113427
+MD5Sum: ba5cddc296935d67fc67a93abc4a0481
+
+Package: libSDL-image
+Version: 1.2.3-1
+Section: libraries
+Priority: optional
+Architecture: arm
+Depends: libSDL, libpng12, libjpeg
+Installed-Size: 48
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: This is a simple library to load images of various formats as SDL surfaces.
+ This library supports BMP, PNM (PPM/PGM/PBM), XPM, LBM, PCX, GIF, JPEG, PNG,
+ TGA, and TIFF formats.
+ .
+ Fixed dependency on libpng.so.3: should now only depend on libpng12.so
+Filename: libSDL-image_1.2.3-1_arm.ipk
+Size: 17077
+MD5Sum: 320aaf6917497425201a30a99fda17ff
+
+Package: libSDL-mixer
+Priority: optional
+Section: Games
+Version: 1.2.6-zports-1
+Architecture: arm
+Maintainer: Manuel Teira <manuel.teira@softhome.net>
+Depends: 
+License: GPL
+Cardinst: enabled
+Installed-Size: 260KB
+Description: SDL-mixer library
+ A sound library for the SDL library backend.
+Filename: libSDL-mixer_1.2.6-zports-1_arm.ipk
+Size: 108882
+MD5Sum: cd6b6255bc7114621218736990ea1c71
+
+Package: libSDL-ttf
+Version: 2.0.7-0
+Section: libraries
+Priority: optional
+Architecture: arm
+Depends: libSDL, libfreetype
+Installed-Size: 40k
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: This is a sample library which allows you to use
+ TrueType fonts in your SDL applications.
+Filename: libSDL-ttf_2.0.7-0_arm.ipk
+Size: 10708
+MD5Sum: 2e61218178e7492393990579b7a6af9a
+
+Package: libvorbis
+Priority: optional
+Section: Libraries
+Version: 1.1.0-1
+Architecture: arm
+Maintainer: Tovarish <nkundu@win.tue.nl>
+Depends: 
+License: GPL
+Installed-Size: 1.2MB
+Cardinst: enabled
+Description: The Vobis Audio compression library
+Filename: libvorbis_1.1.0-1_arm.ipk
+Size: 181981
+MD5Sum: 22973ddb4113dd17e6ed52f0085d9f52
+
+Package: libxml2
+Version: 2.6.14-0
+Architecture: arm
+Depends: 
+Priority: optional
+Section: libs
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: disabled
+Installed-Size: 1172600
+Description: libxml2
+ .
+ This library allows to manipulate XML files. It includes support
+ to read, modify and write XML and HTML files. There is DTDs support
+ this includes parsing and validation even with complex DtDs, either
+ at parse time or later once the document has been modified. The output
+ can be a simple SAX stream or and in-memory DOM like representations.
+ In this case one can use the built-in XPath and XPointer implementation
+ to select subnodes or ranges. A flexible Input/Output mechanism is
+ available, with existing HTTP and FTP modules and combined to an
+ URI library.
+Filename: libxml2_2.6.14-0_arm.ipk
+Size: 439092
+MD5Sum: 13edbb70b36ed194d8e652122e046ed1
+
+Package: libxml2
+Version: 2.6.14-0
+Architecture: arm
+Depends: 
+Priority: optional
+Section: libs
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: disabled
+Installed-Size: 1172600
+Description: libxml2
+ .
+ This library allows to manipulate XML files. It includes support
+ to read, modify and write XML and HTML files. There is DTDs support
+ this includes parsing and validation even with complex DtDs, either
+ at parse time or later once the document has been modified. The output
+ can be a simple SAX stream or and in-memory DOM like representations.
+ In this case one can use the built-in XPath and XPointer implementation
+ to select subnodes or ranges. A flexible Input/Output mechanism is
+ available, with existing HTTP and FTP modules and combined to an
+ URI library.
+Filename: libxml2_2.6.14-0_arm.ipk
+Size: 439092
+MD5Sum: 13edbb70b36ed194d8e652122e046ed1
+
+Package: obexftp
+Priority: optional
+Version: 1.19-0
+Architecture: arm
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Depends: bluez-libs, openobex
+Installed-Size: 96k
+Description: ObexFTP implements the Object Exchange (OBEX) protocols file transfer feature.
+ Compiled with bluetooth support.
+Filename: obexftp_1.19-0_arm.ipk
+Size: 20092
+MD5Sum: 596ec6147ad0367506fc6f9a6a9c64d9
+
+Package: openobex
+Priority: optional
+Version: 1.2-0
+Architecture: arm
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Depends: bluez-libs
+Installed-Size: 60k
+Description: This package contains the OpenOBEX shared libraries.
+ OpenOBEX is a free implementation of the Object Exchange protocol.
+ Compiled with bluetooth support.
+Filename: openobex_1.2-0_arm.ipk
+Size: 13686
+MD5Sum: 568957b485aac10fa71be21592a783c9
+
+Package: openssl
+Priority: optional
+Section: Misc
+Version: 0.9.7d
+Architecture: arm
+Maintainer: Bryan DeLuca <bryan@bryandeluca.com>
+Depends:
+License: BSD
+Description: Cryptographic library ported to Zaurus.
+Filename: openssl_0.9.7d_arm.ipk
+Size: 1061150
+MD5Sum: 0aa71705d1b4a3bb1e1eee6504c6236e
+
+Package: rpcclient
+Version: 2.2.10-0
+Depends: smbclient
+Priority: optional
+Section:  net
+Architecture: arm
+Cardinst: enabled
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: Samba rpcclient remote procedure call client.
+Installed-Size: 988KB
+Filename: rpcclient_2.2.10-0_arm.ipk
+Size: 380661
+MD5Sum: eba335fd5db277bd6f2bf14f055fe2c4
+
+Package: rsync
+Version: 2.6.4-0
+Depends: 
+Priority: optional
+Section: net
+Architecture: arm
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Installed-Size: 284KB
+Cardinst: enabled
+Description: Rsync file synchronisation tool.
+ rsync is a program that allows files to be copied to and
+ from remote machines in much the same way as rcp. It has
+ many more options than rcp, and uses the rsync remote-update
+ protocol to greatly speed up file transfers when the
+ destination file already exists.
+ .
+ The rsync remote-update protocol allows rsync to transfer
+ just the differences between two sets of files across the
+ network link.
+ .
+ Changes:
+ - Update to version 2.6.4 (protocol 29)
+ - Includes symlink in /usr/bin for rsync over ssh
+Filename: rsync_2.6.4-0_arm.ipk
+Size: 126206
+MD5Sum: 5fb44e9878bb6126a37effb3d5a24b03
+
+Package: scummvm
+Version: 0.8.2-1
+Architecture: arm
+Depends: zlib, libmad, libsdl, libogg, libvorbis, libjpeg
+Priority: optional
+Section: Games
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 4598625
+Description: A game engine for Lucasarts adventure games.
+ Scummvm is a game engine capable of running famous Lucasarts
+ adventure games (Monkey Island, Day of the Tentacle, Sam'n Max, ...)
+ on your Zaurus.
+ Menu key maps to in-game menu and Ctrl simulates right-click.
+Filename: scummvm_0.8.2-1_arm.ipk
+Size: 1633828
+MD5Sum: 7a689f0b56dc9a251671bda602e75e9b
+
+Package: smbclient
+Version: 2.2.10-2
+Depends: smbmount
+Priority: optional
+Section: net
+Architecture: arm
+Installed-Size: 1.3MB
+Cardinst: enabled
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: Samba networking clients. Includes smbclient and nmblookup.
+ Changes:
+ - Added symlinks in /etc and enabled card install
+Filename: smbclient_2.2.10-2_arm.ipk
+Size: 442272
+MD5Sum: 6fcd60f0dbad65a7c8b4c544a73e4fc2
+
+Package: smbmount
+Version: 0.1
+Architecture: arm
+Maintainer: Lars Friedrichs <highno@z-portal.info>
+Section: net
+Priority: optional
+Description: a quick-n-dirty rip-off of smbmount from debian-arm plus all
+ needed files
+Filename: smbmount_0.1_arm.ipk
+Size: 415572
+MD5Sum: f67d1a7dfc71d6bfd828556f0e543e54
+
+Package: smbspool
+Version: 2.2.10-0
+Depends: smbclient
+Priority: optional
+Section:  net
+Cardinst: enabled
+Architecture: arm
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: Samba smbspool printing client.
+Installed-Size: 516KB
+Filename: smbspool_2.2.10-0_arm.ipk
+Size: 207197
+MD5Sum: 4ffdc2bea24636fc00424243d40d9bbb
+
+Package: soundmodem
+Version: 0.7-7
+Section: hamradio
+Priority: optional
+Architecture: arm
+Depends: ax25-modules, libaudiofile, libxml, zlib
+Installed-Size: 188
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Description: Sound Card Amateur Packet Radio Modems
+ This package contains the driver and diagnostic utility for the
+ userspace SoundModem suite by Thomas Sailer.
+ .
+ This package allows you to use any soundcard supported by the kernel as
+ an Amateur Packet Radio modem.
+ .
+ A patched ifconfig-ax25 has been included with this package, since the zaurus
+ ifconfig doesn't set the AX.25 hardware address correctly. Also, soundmodem
+ has been patched to accept a manually defined sampling rate
+ (http://www.lx2gt.lu/soundmodem/soundmodem-0.7-lx2gt.patch). Finally,
+ f0 and f1 have been switched around in /etc/ax25/soundmodem.conf.
+ .
+ Disabled automatic start at bootup.
+Filename: soundmodem_0.7-7_arm.ipk
+Size: 75278
+MD5Sum: 420688a785fc6732628efea16e37b28b
+
+Package: spcaview
+Version: 20051001-0
+Architecture: arm
+Depends: 
+Priority: optional
+Section: extras
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 192150
+Description: Video4Linux viewing application for spca5xx webcams.
+Filename: spcaview_20051001-0_arm.ipk
+Size: 91979
+MD5Sum: ec6f3423cae0acbe29738da81e18b5e3
+
+Package: subversion
+Version: 1.4.4-0
+Architecture: arm
+Depends: zlib, openssl
+Priority: optional
+Section: extras
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 1717964
+Description: Subversion is a concurrent version control system which enables one
+or more users to collaborate in developing and maintaining a
+hierarchy of files and directories while keeping a history of all
+changes.  Subversion only stores the differences between versions,
+instead of every complete file.  Subversion is intended to be a
+compelling replacement for CVS.
+This version is compiled without Berkeley DB support.
+Filename: subversion_1.4.4-0_arm.ipk
+Size: 692547
+MD5Sum: 904d57a238f05b3ca7db7ffc057b017a
+
+Package: sudo
+Priority: optional
+Section: misc
+Version: 1.6.7p5-1
+Architecture: arm
+Maintainer: walrus@digit.que.ne.jp
+Depends: 
+Description: sudo-1.6.7p5 for zaurus.
+Filename: sudo_1.6.7p5-1_arm.ipk
+Size: 82466
+MD5Sum: f25002a8f8a0f00053e37ee6ad9519c3
+
+Package: supertux
+Version: 0.1.2-3
+Section: Games
+Priority: optional
+Architecture: arm
+Depends: zlib, libSDL, libSDL-mixer, libSDL-image, libpng12, libjpeg, sudo
+Installed-Size: 6920k
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Description: SuperTux is a jump'n run like game, with strong inspiration from the
+ Super Mario Bros games for Nintendo.
+ .
+ Run and jump through multiple worlds, fighting off enemies by jumping
+ on them or bumping them from below.  Grabbing power-ups and other stuff
+ on the way.
+ .
+ The game has now been converted to fixed point arithmetic, which should
+ result in a considerable speed-up. The game shared data is now stored in
+ a cramfs image, which enables the game to be installed on an SD/CF card
+ and makes the installation size smaller.
+Filename: supertux_0.1.2-3_arm.ipk
+Size: 6475072
+MD5Sum: a0fae855b2c139211a54949ac625e802
+
+Package: totem-ssh-remote
+Version: 1.2-3
+Architecture: noarch
+Depends: personal-profile-for-zaurus, openssh-client
+Priority: optional
+Section: extras
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 82221
+Description: Totem remote session control via SSH.
+Filename: totem-ssh-remote_1.2-3_noarch.ipk
+Size: 71157
+MD5Sum: ee4d4200a93b3125f7a8e2e63019529b
+
+Package: vlc
+Version: 0.8.6c-0
+Architecture: arm
+Depends: zlib, libmad, libjpeg, libpng12, libsdl, libsdl-image
+Priority: optional
+Section: multimedia
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 6976074
+Description: VideoLAN is a software project, which produces free software for video, released under the GNU General Public License.
+Filename: vlc_0.8.6c-0_arm.ipk
+Size: 2855838
+MD5Sum: a16f110312be070ce963a318e79eb012
+
+Package: xastir
+Version: 1.8.4-0
+Architecture: arm
+Depends: ImageMagick, lesstif, xlibs
+Priority: optional
+Section: Network
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 7784282
+Description: Amateur Station Tracking and Reporting system for amateur radio
+ .
+ Xastir is a graphical application that interfaces HAM radio
+ and internet access to realtime mapping software.
+ Install XASTIR if you are interested in APRS(tm) and HAM radio
+ software.
+Filename: xastir_1.8.4-0_arm.ipk
+Size: 5856926
+MD5Sum: b9e5e1db8306a6136b162d3909a44a58
+
+Package: xine-ssh-remote
+Version: 1.0-0
+Architecture: noarch
+Depends: personal-profile-for-zaurus
+Priority: optional
+Section: extras
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: enabled
+Installed-Size: 38017
+Description: Xine remote session control via SSH.
+Filename: xine-ssh-remote_1.0-0_noarch.ipk
+Size: 32935
+MD5Sum: dfe88a0deee7e25bdc9757d5cce0c61b
+
+Package: zlib
+Priority: optional
+Version: 1.2.2-1
+Architecture: arm
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Depends: 
+Installed-Size: 88
+Description: This package contains the zlib shared libraries
+Filename: zlib_1.2.2-1_arm.ipk
+Size: 37092
+MD5Sum: 61bce7184370916223409f6db32153c1
+
