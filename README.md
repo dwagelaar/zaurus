@@ -1,0 +1,2 @@
+# zaurus
+Zaurus package feed
