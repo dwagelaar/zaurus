@@ -35,15 +35,15 @@ MD5Sum: 6f839c346c9e321a0a0a599a5ee30953
 Package: ax25-modules
 Section: kernel
 Priority: optional
-Version: 2.4.18-rmk7-pxa3-embedix
+Version: 2.4.18-rmk7-pxa3-embedix-cacko-1.22
 Architecture: arm
 Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
 Depends:
 Installed-Size: 344
-Description: ax25 Amateur Packet Radio modules for kernel 2.4.18-rmk7-pxa3-embedix
-Filename: ax25-modules_2.4.18-rmk7-pxa3-embedix_arm.ipk
-Size: 112996
-MD5Sum: 9f16f6e31bead9e1392ca82f0580a0cd
+Description: ax25 Amateur Packet Radio modules for Cacko 1.22 ROM kernel 2.4.18-rmk7-pxa3-embedix
+Filename: ax25-modules_2.4.18-rmk7-pxa3-embedix-cacko-1.22_arm.ipk
+Size: 113121
+MD5Sum: 0532d264da33ed4d971f285223f6b003
 
 Package: ax25-tools
 Version: 0.0.10rc2-0
@@ -62,18 +62,6 @@ Description: AX25 tools
 Filename: ax25-tools_0.0.10rc2-0_arm.ipk
 Size: 135469
 MD5Sum: 996767a2450032ea7d77057e3745ce82
-
-Package: bluez-libs
-Priority: optional
-Section: comm
-Version: 2.21
-Architecture: arm
-Maintainer: Stephen Crane - steve.crane@rococosoft.com
-Depends:
-Description: User-space libraries for BlueZ
-Filename: bluez-libs-2.21_arm.ipk
-Size: 32503
-MD5Sum: 73bacd597a225322e1c3eceba6389e2d
 
 Package: cadaver
 Version: 0.23.3-1
@@ -106,6 +94,20 @@ Description: Corsair RSS/Podcast Aggregator
 Filename: corsair_0.2.6-0_arm.ipk
 Size: 71732
 MD5Sum: 6885e21ef3d3909d83d8cbf57c637beb
+
+Package: cryptoloop-modules
+Version: 2.4.20-0
+Architecture: arm
+Depends: 
+Priority: optional
+Section: kernel
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: disabled
+Installed-Size: 86524
+Description: Cryptoloop modules for Cacko 1.23 ROM kernel 2.4.20.
+Filename: cryptoloop-modules_2.4.20-0_arm.ipk
+Size: 28259
+MD5Sum: c96e4dbe0da8d35afa13204251f7f5bf
 
 Package: ImageMagick
 Version: 5.5.7-0
@@ -224,51 +226,6 @@ Filename: libax25_0.0.11-2_arm.ipk
 Size: 18309
 MD5Sum: 5856e8c5584264c149199f2f279facf7
 
-Package: libfreetype
-Version: 2.1.9-0
-Section: libraries
-Priority: optional
-Architecture: arm
-Depends: zlib
-Installed-Size: 444k
-Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
-Description: A free and portable TrueType font rendering engine.
- FreeType 2 is a software font engine that is designed to be small,
- efficient, highly customizable and portable while capable of
- producing high-quality output (glyph images). It can be used in
- graphics libraries, display servers, font conversion tools, text
- image generation tools, and many other products as well.
-Filename: libfreetype_2.1.9-0_arm.ipk
-Size: 187224
-MD5Sum: ea51a2f29d1769ac98c01a49ed577b73
-
-Package: libjpeg
-Version: 6b-0
-Section: libraries
-Priority: optional
-Architecture: arm
-Depends: 
-Installed-Size: 140
-Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
-Description: This distribution contains the sixth public release of the Independent JPEG
- Group's free JPEG software.  You are welcome to redistribute this software and
- to use it for any purpose, subject to the conditions under LEGAL ISSUES, below.
- .
- Serious users of this software (particularly those incorporating it into
- larger programs) should contact IJG at jpeg-info@uunet.uu.net to be added to
- our electronic mailing list.  Mailing list members are notified of updates
- and have a chance to participate in technical discussions, etc.
- .
- This software is the work of Tom Lane, Philip Gladstone, Jim Boucher,
- Lee Crocker, Julian Minguillon, Luis Ortiz, George Phillips, Davide Rossi,
- Guido Vollbeding, Ge' Weijers, and other members of the Independent JPEG
- Group.
- .
- IJG is not affiliated with the official ISO JPEG standards committee.
-Filename: libjpeg_6b-0_arm.ipk
-Size: 59103
-MD5Sum: edaafd855c6c78267f65a848ed8f589d
-
 Package: libmad
 Priority: optional
 Section: Games
@@ -284,21 +241,6 @@ Description: A sound library
 Filename: libmad_0.15.1b-1_arm.ipk
 Size: 63367
 MD5Sum: 5351fa324e50c78756e48e73e93b7bb4
-
-Package: libncurses5
-Version: 5.0-0
-Section: base
-Priority: optional
-Architecture: arm
-Depends: 
-Installed-Size: 271913
-Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
-Description: Shared libraries for terminal handling
- This package contains the shared libraries necessary to run programs
- compiled with ncurses.
-Filename: libncurses5_5.0-0_arm.ipk
-Size: 99792
-MD5Sum: 625b0d5c17115cb897a3495801ff11a8
 
 Package: libogg
 Priority: optional
@@ -352,7 +294,7 @@ Version: 1.2.3-1
 Section: libraries
 Priority: optional
 Architecture: arm
-Depends: libSDL, libpng12, libjpeg
+Depends: 
 Installed-Size: 48
 Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
 Description: This is a simple library to load images of various formats as SDL surfaces.
@@ -361,8 +303,8 @@ Description: This is a simple library to load images of various formats as SDL s
  .
  Fixed dependency on libpng.so.3: should now only depend on libpng12.so
 Filename: libSDL-image_1.2.3-1_arm.ipk
-Size: 17077
-MD5Sum: 320aaf6917497425201a30a99fda17ff
+Size: 17090
+MD5Sum: a669495014aba9efbf9169540df2af0d
 
 Package: libSDL-mixer
 Priority: optional
@@ -385,14 +327,14 @@ Version: 2.0.7-0
 Section: libraries
 Priority: optional
 Architecture: arm
-Depends: libSDL, libfreetype
+Depends: libfreetype
 Installed-Size: 40k
 Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
 Description: This is a sample library which allows you to use
  TrueType fonts in your SDL applications.
 Filename: libSDL-ttf_2.0.7-0_arm.ipk
-Size: 10708
-MD5Sum: 2e61218178e7492393990579b7a6af9a
+Size: 10694
+MD5Sum: 4b22e40b19dc88b86ee97ba8162dccb5
 
 Package: libvorbis
 Priority: optional
@@ -483,19 +425,6 @@ Description: This package contains the OpenOBEX shared libraries.
 Filename: openobex_1.2-0_arm.ipk
 Size: 13686
 MD5Sum: 568957b485aac10fa71be21592a783c9
-
-Package: openssl
-Priority: optional
-Section: Misc
-Version: 0.9.7d
-Architecture: arm
-Maintainer: Bryan DeLuca <bryan@bryandeluca.com>
-Depends:
-License: BSD
-Description: Cryptographic library ported to Zaurus.
-Filename: openssl_0.9.7d_arm.ipk
-Size: 1061150
-MD5Sum: 0aa71705d1b4a3bb1e1eee6504c6236e
 
 Package: rpcclient
 Version: 2.2.10-0
@@ -603,7 +532,7 @@ Version: 0.7-7
 Section: hamradio
 Priority: optional
 Architecture: arm
-Depends: ax25-modules, libaudiofile, libxml, zlib
+Depends: ax25-modules, libaudiofile, libxml
 Installed-Size: 188
 Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
 Description: Sound Card Amateur Packet Radio Modems
@@ -621,8 +550,8 @@ Description: Sound Card Amateur Packet Radio Modems
  .
  Disabled automatic start at bootup.
 Filename: soundmodem_0.7-7_arm.ipk
-Size: 75278
-MD5Sum: 420688a785fc6732628efea16e37b28b
+Size: 75406
+MD5Sum: 1f58ac9a3fb4db579ce234f4c87f9108
 
 Package: spcaview
 Version: 20051001-0
@@ -675,7 +604,7 @@ Version: 0.1.2-3
 Section: Games
 Priority: optional
 Architecture: arm
-Depends: zlib, libSDL, libSDL-mixer, libSDL-image, libpng12, libjpeg, sudo
+Depends: libSDL-mixer, libSDL-image
 Installed-Size: 6920k
 Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
 Cardinst: enabled
@@ -691,8 +620,8 @@ Description: SuperTux is a jump'n run like game, with strong inspiration from th
  a cramfs image, which enables the game to be installed on an SD/CF card
  and makes the installation size smaller.
 Filename: supertux_0.1.2-3_arm.ipk
-Size: 6475072
-MD5Sum: a0fae855b2c139211a54949ac625e802
+Size: 6475030
+MD5Sum: 320c9f4be366066b93fa7b894c1cecc8
 
 Package: totem-ssh-remote
 Version: 1.2-3
@@ -707,6 +636,20 @@ Description: Totem remote session control via SSH.
 Filename: totem-ssh-remote_1.2-3_noarch.ipk
 Size: 71157
 MD5Sum: ee4d4200a93b3125f7a8e2e63019529b
+
+Package: video4linux
+Version: 2.4.20-0
+Architecture: arm
+Depends: 
+Priority: optional
+Section: kernel
+Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
+Cardinst: disabled
+Installed-Size: 408697
+Description: Video4Linux kernel driver including spca5xx webcam driver.
+Filename: video4linux_2.4.20-0_arm.ipk
+Size: 126310
+MD5Sum: e45bf4f60f0941560096bdcf79bfae5a
 
 Package: vlc
 Version: 0.8.6c-0
@@ -754,16 +697,4 @@ Description: Xine remote session control via SSH.
 Filename: xine-ssh-remote_1.0-0_noarch.ipk
 Size: 32935
 MD5Sum: dfe88a0deee7e25bdc9757d5cce0c61b
-
-Package: zlib
-Priority: optional
-Version: 1.2.2-1
-Architecture: arm
-Maintainer: Dennis Wagelaar <dennis.wagelaar@vub.ac.be>
-Depends: 
-Installed-Size: 88
-Description: This package contains the zlib shared libraries
-Filename: zlib_1.2.2-1_arm.ipk
-Size: 37092
-MD5Sum: 61bce7184370916223409f6db32153c1
 
